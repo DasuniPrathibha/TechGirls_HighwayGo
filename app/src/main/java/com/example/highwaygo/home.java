@@ -1,12 +1,19 @@
 package com.example.highwaygo;
 
+import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.drawerlayout.widget.DrawerLayout;
 
 import android.app.DatePickerDialog;
+import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
+import android.os.Handler;
+import android.view.MenuItem;
 import android.view.View;
+import android.view.WindowManager;
+import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -17,16 +24,48 @@ import java.util.Calendar;
 
 public class home extends AppCompatActivity {
 
-    TextView tvDate;
-    EditText etDate;
-    DatePickerDialog.OnDateSetListener setListener;
+    private DrawerLayout drawerLayout;
+    private ActionBarDrawerToggle mToggle;
 
-    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.home);
 
-        tvDate = findViewById(R.id.tv_date);
+
+        Button button = (Button) findViewById(R.id.button70);
+
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(home.this,view_seats_2.class);
+                startActivity(intent);
+            }
+        });
+
+        drawerLayout=(DrawerLayout) findViewById(R.id.drawerLayout);
+        mToggle=new ActionBarDrawerToggle(this,drawerLayout,R.string.open,R.string.close);
+        drawerLayout.addDrawerListener(mToggle);
+        mToggle.syncState();
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+    }
+
+    public boolean onOptionsItemSelected(MenuItem item) {
+        if (mToggle.onOptionsItemSelected(item)) {
+
+            return true;
+        }
+        return super.onOptionsItemSelected(item);
+    }
+
+    TextView tvDate;
+    EditText etDate;
+    DatePickerDialog.OnDateSetListener setListener;
+
+    protected void onCreate1(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.home);
+
+
         etDate = findViewById(R.id.et_date);
 
         Calendar calendar = Calendar.getInstance();
@@ -70,4 +109,6 @@ public class home extends AppCompatActivity {
                  }
              });
         }
+
+
     }

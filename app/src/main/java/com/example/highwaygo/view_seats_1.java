@@ -7,7 +7,7 @@ import android.widget.Button;
 import android.content.Intent;
 import android.view.View;
 
-public class MainActivity extends AppCompatActivity {
+public class view_seats_1 extends AppCompatActivity {
 
     public Button button;
 
@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,view_seats_2.class);
+                Intent intent = new Intent(view_seats_1.this,view_seats_2.class);
                 startActivity(intent);
             }
         });
