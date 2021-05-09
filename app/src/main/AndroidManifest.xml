@@ -9,7 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.HighwayGo">
-        <activity android:name=".CancelActivity"></activity>
+        <activity android:name=".SeatActivity"></activity>
+        <activity android:name=".Bus" />
+        <activity android:name=".LogoutActivity" />
+        <activity android:name=".rate_us" />
+        <activity android:name=".share" />
+        <activity android:name=".view_profile" />
+        <activity android:name=".BusActivity" />
+        <activity android:name=".CancelActivity" />
         <activity android:name=".cancel_booking" />
         <activity android:name=".login" />
         <activity android:name=".splash">
@@ -19,8 +26,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".view_seats_2" />
-        <activity android:name=".view_seats_1" />
         <activity android:name=".my_bookings" />
         <activity android:name=".home" />
         <activity android:name=".booking_details" />

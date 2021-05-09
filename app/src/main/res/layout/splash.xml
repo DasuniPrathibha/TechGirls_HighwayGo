@@ -22,7 +22,7 @@
         android:id="@+id/textView50"
         android:layout_width="278dp"
         android:layout_height="63dp"
-        android:fontFamily="serif-monospace"
+        android:fontFamily="@font/lemon"
         android:text="@string/txtAppNameHighwayGo"
         android:textColor="@color/white"
         android:textSize="40sp"
