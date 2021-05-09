@@ -6,17 +6,24 @@
         <item
             android:id="@+id/nav_home"
             android:icon="@drawable/home_icon"
-            android:title="@string/btnHome" />
+            android:title="@string/btnHome"/>
 
         <item
             android:id="@+id/nav_history"
             android:icon="@drawable/history_icon"
-            android:title="PreviousRides" />
+            android:title="My Bookings"/>
+
+        <item
+            android:id="@+id/nav_cancel"
+            android:icon="@drawable/history_icon"
+            android:title="Cancel Booking"/>
+
 
         <item
             android:id="@+id/nav_logout"
             android:icon="@drawable/logout_icon"
-            android:title="@string/btnLogout" />
+            android:title="@string/btnLogout"/>
+
 
     </group>
 
@@ -29,7 +36,8 @@
             <item
                 android:id="@+id/nav_profile"
                 android:icon="@drawable/profile_icon"
-                android:title="@string/btnViewProfile" />
+                android:title="View Profile"/>
+
 
         </menu>
 
@@ -44,12 +52,14 @@
             <item
                 android:id="@+id/nav_share"
                 android:icon="@drawable/share_icon"
-                android:title="@string/btnshare" />
+                android:title="@string/btnshare"/>
+
 
             <item
                 android:id="@+id/nav_rate"
                 android:icon="@drawable/rate_icon"
-                android:title="@string/btnRateUs" />
+                android:title="@string/btnRateUs"/>
+
 
 
         </menu>

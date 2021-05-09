@@ -1,28 +1,25 @@
 package com.example.highwaygo;
 
-import androidx.appcompat.app.ActionBarDrawerToggle;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.drawerlayout.widget.DrawerLayout;
-
 import android.app.DatePickerDialog;
 import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
-import android.os.Handler;
 import android.view.MenuItem;
 import android.view.View;
-import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import com.google.android.material.datepicker.MaterialStyledDatePickerDialog;
+import androidx.appcompat.app.ActionBarDrawerToggle;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.drawerlayout.widget.DrawerLayout;
 
 import java.util.Calendar;
 
 public class home extends AppCompatActivity {
+
 
     private DrawerLayout drawerLayout;
     private ActionBarDrawerToggle mToggle;
@@ -40,6 +37,9 @@ public class home extends AppCompatActivity {
                 Intent intent = new Intent(home.this,view_seats_2.class);
                 startActivity(intent);
             }
+
+
+
         });
 
         drawerLayout=(DrawerLayout) findViewById(R.id.drawerLayout);
@@ -111,4 +111,4 @@ public class home extends AppCompatActivity {
         }
 
 
-    }
+}

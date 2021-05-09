@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="170dp"
     android:orientation="vertical"
-    android:background="@drawable/background"
+    android:background="@color/purple_700"
     android:layout_gravity="top"
     android:padding="20dp">
 
@@ -19,7 +19,7 @@
         app:layout_constraintHorizontal_bias="0.154"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.128" />
+        app:layout_constraintVertical_bias="0.128"/>
 
     <TextView
         android:id="@+id/font"
@@ -34,7 +34,7 @@
         app:layout_constraintHorizontal_bias="0.117"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.904" />
+        app:layout_constraintVertical_bias="0.904"/>
 
 
 </LinearLayout>
