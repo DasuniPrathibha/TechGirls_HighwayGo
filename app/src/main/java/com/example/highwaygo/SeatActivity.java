@@ -81,8 +81,7 @@ public class SeatActivity extends AppCompatActivity {
         });
 
     }
-
-
+    
     private void setToggleEvent(GridLayout mainGrid) {
         //Loop all child item of Main Grid
         for (int i = 0; i < mainGrid.getChildCount(); i++) {

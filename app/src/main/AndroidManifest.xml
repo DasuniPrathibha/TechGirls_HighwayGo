@@ -28,7 +28,6 @@
         </activity>
         <activity android:name=".my_bookings" />
         <activity android:name=".home" />
-        <activity android:name=".booking_details" />
 
         <meta-data
             android:name="preloaded_fonts"
