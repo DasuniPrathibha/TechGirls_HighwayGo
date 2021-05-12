@@ -32,6 +32,7 @@ public class SeatActivity extends AppCompatActivity {
     private FirebaseAuth firebaseAuth;
     private ProgressDialog progressDialog;
     private DatabaseReference databaseReference;
+    private Object payment;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

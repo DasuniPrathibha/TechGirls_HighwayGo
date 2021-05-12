@@ -4,9 +4,6 @@ package com.example.highwaygo;
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.widget.DefaultItemAnimator;
-import android.support.v7.widget.LinearLayoutManager;
-
 import android.view.View;
 import android.widget.Toast;
 
@@ -15,9 +12,6 @@ import androidx.recyclerview.widget.RecyclerView;
 import androidx.recyclerview.widget.DefaultItemAnimator;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.annotation.NonNull;
-
-
-
 
 
 import com.google.firebase.auth.FirebaseAuth;
@@ -32,7 +26,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-public class BusActivity extends AppCompatActivity implements ItemClickListener{
+public class BusActivity extends AppCompatActivity {
 
     private RecyclerView recyclerView;
     private BusAdapter adapter;

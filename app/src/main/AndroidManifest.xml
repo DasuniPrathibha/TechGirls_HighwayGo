@@ -11,14 +11,9 @@
         android:theme="@style/Theme.HighwayGo">
         <activity android:name=".SeatActivity"></activity>
         <activity android:name=".Bus" />
-        <activity android:name=".LogoutActivity" />
-        <activity android:name=".rate_us" />
-        <activity android:name=".share" />
-        <activity android:name=".view_profile" />
         <activity android:name=".BusActivity" />
         <activity android:name=".CancelActivity" />
         <activity android:name=".cancel_booking" />
-        <activity android:name=".login" />
         <activity android:name=".splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
