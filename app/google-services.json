@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "595367106148",
+    "firebase_url": "https://highway-go-default-rtdb.firebaseio.com",
     "project_id": "highway-go",
     "storage_bucket": "highway-go.appspot.com"
   },

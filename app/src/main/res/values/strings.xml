@@ -128,4 +128,35 @@
     <string name="appName">Highway Go</string>
     <string name="txtAppNameHighwayGo">Highway Go</string>
     <string name="txtSlog">Choose possibility in every route.</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="from">From :</string>
+    <string name="to">To :</string>
+
+    <string-array name="fromCities">
+        <item> Colombo </item>
+        <item> Galle </item>
+        <item> Kottawa </item>
+        <item> Mathugama </item>
+    </string-array>
+
+    <string-array name="toCities">
+        <item> Colombo </item>
+        <item> Galle </item>
+        <item> Kottawa </item>
+        <item> Mathugama </item>
+    </string-array>
+
 </resources>

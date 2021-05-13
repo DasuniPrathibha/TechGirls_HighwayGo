@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.highwaygo">
 
     <application
@@ -9,20 +10,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.HighwayGo">
-        <activity android:name=".SeatActivity"></activity>
-        <activity android:name=".Bus" />
-        <activity android:name=".BusActivity" />
-        <activity android:name=".CancelActivity" />
-        <activity android:name=".cancel_booking" />
-        <activity android:name=".splash">
+        <activity android:name=".BookingDetails"></activity>
+        <activity android:name=".seat" />
+        <activity android:name=".BusList" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/Theme.HighwayGo.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".my_bookings" />
-        <activity android:name=".home" />
 
         <meta-data
             android:name="preloaded_fonts"
