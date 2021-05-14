@@ -10,8 +10,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.HighwayGo">
-        <activity android:name=".BookingDetails"></activity>
-        <activity android:name=".seat" />
+        <activity android:name=".Seat"></activity>
+        <activity android:name=".BookingDetails" />
         <activity android:name=".BusList" />
         <activity
             android:name=".MainActivity"

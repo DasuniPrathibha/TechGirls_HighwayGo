@@ -10,7 +10,7 @@ public class CancelBookingViewModel extends ViewModel {
 
     public CancelBookingViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is slideshow fragment");
+        mText.setValue("");
     }
 
     public LiveData<String> getText() {

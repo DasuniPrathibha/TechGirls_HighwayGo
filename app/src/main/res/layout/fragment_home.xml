@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.home.HomeFragment">
+    tools:context=".ui.home.HomeFragment"
+    android:background="@color/purple_700">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -25,7 +26,7 @@
             android:layout_marginStart="7dp"
             android:layout_marginLeft="7dp"
             android:text="@string/from"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:textSize="18sp"></TextView>
 
         <Spinner
@@ -46,7 +47,7 @@
             android:layout_marginStart="7dp"
             android:layout_marginLeft="7dp"
             android:text="@string/to"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:textSize="18sp" />
 
         <Spinner
@@ -69,6 +70,7 @@
             android:background="@android:drawable/btn_default"
             android:gravity="center"
             android:hint="SET DATE"
+            android:textColor="@color/white"
             android:shadowColor="#090909"
             android:shadowDx="0"
             android:shadowDy="0"
@@ -78,19 +80,19 @@
 
         <Button
             android:id="@+id/search_btn"
-            android:layout_width="250dp"
-            android:layout_height="55dp"
+            android:layout_width="208dp"
+            android:layout_height="wrap_content"
             android:layout_marginLeft="75dp"
             android:layout_marginTop="20dp"
-            android:background="@color/gray"
+            android:background="@color/black"
             android:baselineAligned="false"
             android:shadowColor="#14A81E"
             android:shadowDx="0"
             android:shadowDy="0"
             android:shadowRadius="3"
             android:text="Search"
-            android:textColor="#041E21"
-            android:textSize="30sp"
+            android:textColor="@color/white"
+            android:textSize="25sp"
             app:backgroundTint="@color/gray"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"

@@ -10,7 +10,7 @@ public class MyBookingsViewModel extends ViewModel {
 
     public MyBookingsViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is gallery fragment");
+        mText.setValue("");
     }
 
     public LiveData<String> getText() {
